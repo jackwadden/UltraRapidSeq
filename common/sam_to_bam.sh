@@ -24,11 +24,4 @@ then
 
     echo "Done!"
     
-    #echo "Generating pileup..."
-    #samtools mpileup \
-#	     -Q 0 \
-#	     -f ~/wadden/datasets/human_reference/human_g1k_v37.fasta \
-#	     ./${key}.sorted.bam \
-#	     > pilup.txt
-    
 fi
